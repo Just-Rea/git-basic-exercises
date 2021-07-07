@@ -1,0 +1,158 @@
+    1  ?
+    2  ls
+    3  ls /data
+    4  ls /etc/perl
+    5  ls/
+    6  ls /
+    7  pwd
+    8  mkdir
+    9  mkdir --help
+   10  mkdir learning_unix
+   11  ls
+   12  cd learning_unix
+   13  mkdir Outer-directory
+   14  cd Outer-directory
+   15  mkdir Inner-directory
+   16  cd Inner-directory
+   17  cd home
+   18  cd mmaga
+   19  cd Users
+   20  cd /
+   21  cd Users
+   22  pwd
+   23  cd Users
+   24  cd home
+   25  cd mmaga
+   26  cd Windows(C:)
+   27  cd C:
+   28  cd mmaga
+   29  cd Users
+   30  cd mmaga
+   31  cd learning_unix
+   32  cd ..
+   33  cd ../..
+   34  cd ..
+   35  cd /tmp
+   36  cd /
+   37  cd
+   38  cd /
+   39  cd 
+   40  cd /learning_unix
+   41  cd /
+   42  cd ~/learning_unix
+   43  cd /learning_unix/Outer-directory/
+   44  cd Outer-directory
+   45  ls ../../
+   46  cd ..
+   47  ls -1 /C:
+   48  ls -l /C:
+   49  ls -l /~
+   50  ls -l
+   51  ls -R
+   52  ls -l -t -r
+   53  ls -lh
+   54  man cd
+   55  cd
+   56  cd man cd
+   57  man cd
+   58  man ls
+   59  man man
+   60  cd man
+   61  /man cd
+   62  cd ~/Outer-directory
+   63  cd ~/learning_unix
+   64  cd Outer-directory
+   65  rmdir Inner-directory/
+   66  cd ..
+   67  rmdir Outer-directory
+   68  ls
+   69  rmdir Outer-directory/
+   70  cd
+   71  mkdir git-basic-exercises
+   72  cd git-basic-exercises/
+   73  ls -a
+   74  git init
+   75  ls -a
+   76  git status
+   77  touch README.md
+   78  ls -a
+   79  git status
+   80  git log
+   81  git add
+   82  git add README.md
+   83  git status
+   84  git rm --cached <READme>
+   85  git restore --staged
+   86  git rm --cached <README.md>...
+   87  git rm --cached <README.md>
+   88  git rm --cached <file>
+   89  git rm --cached README.md
+   90  git status
+   91  git add README.md
+   92  git commit -m "initial commit"
+   93  git commit -m initial commit
+   94  git commit
+   95  git status
+   96  git commit -m "initial commit"
+   97  git config --global user.email reatjie@gmail.com
+   98  git config --global user.name Reamogetse
+   99  git commit -m "initial commit"
+  100  git log
+  101  q
+  102  --help
+  103  quit
+  104  git status
+  105  git log
+  106  nano README.md
+  107  cat README.md
+  108  git stats
+  109  git status
+  110  git commit -m second commit
+  111  git commit -m "second commit"
+  112  git add README.md
+  113  git status
+  114  git commit -m "second commit"
+  115  git log
+  116  nano README.md
+  117  cat README.md
+  118  git status
+  119  git add README.md
+  120  git commit -m "third commit"
+  121  git log
+  122  q
+  123  git --help
+  124  git help -a
+  125  git checkout bde228d6b918ad9c2b9ad58913bead1e1af0d787
+  126  --help
+  127  git --help
+  128  git restore
+  129  ls -a
+  130  cd git-basic-exercises
+  131  git log
+  132  git checkout
+  133  git checkout bde228d6b918ad9c2b9ad58913bead1e1af0d787
+  134  cat README.md
+  135  git checkout main
+  136  git checkout master
+  137  cat README.md
+  138  git branch
+  139  git --help
+  140  git branch
+  141  git branch
+  142  git branch milkshake-flavours
+  143  git branch
+  144  git checkout milkshake-flavours
+  145  git branch
+  146  nano milkshakes.md
+  147  git status
+  148  cat milkshakes.md
+  149  git commit -m "added initial flavours"
+  150  git add milkshakes.md
+  151  git commit -m "added initial flavours"
+  152  git log
+  153  git checkout master
+  154  git branch history
+  155  git checkout history
+  156  git log
+  157  git branch
+  158  history > history.txt
